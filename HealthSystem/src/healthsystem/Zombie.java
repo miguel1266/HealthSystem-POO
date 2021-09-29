@@ -8,8 +8,10 @@ class Zombie {
 
   //metodos
   public int ataque(){
-    return(10)
+    return(10);
   }
-  public void recibirdanio();
+  public void recibirdanio(){
+
+  }
 
 }

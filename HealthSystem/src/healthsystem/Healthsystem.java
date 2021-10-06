@@ -2,7 +2,7 @@ package healthsystem;
 
 class Healthsystem{
   public static void main (String [] args) {
-    Jugador Jprincipal = new Jugador("El Pro", 15);
+    Jugador Jprincipal = new Jugador("MiguelXD", 15);
 
     System.out.println("Sistema de Salud (Healthsystem \n");
 

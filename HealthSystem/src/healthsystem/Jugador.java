@@ -8,12 +8,12 @@ class Jugador {
 
   //metodos
   public Jugador(String nom, int DaGolpe){
-    nombre = nom;
-    danioGolpe = DaGolpe;
+    this.nombre = nombre;
+    this.danioGolpe = DaGolpe;
   }
 
   public int ataque(){
-    return(0);
+    return(danioGolpe);
   }
 
   public void recibirDanio(int danio){
@@ -24,7 +24,7 @@ class Jugador {
     vida = vida + vidaExtra;
   }
 
-  //GET y Set
+  //Get y Set
   public int getVida(){
     return (vida);
   }

@@ -4,14 +4,22 @@ class Zombie {
   private String nombre;
   private int vida = 50;
   private int hacerDanio = 10;
-  private int recibirdanio = 20;
+  //private int recibirdanio = 20;
 
-  //metodos
+  public zombie nom, int vidaZ, int danioZ){
+    this.nombre = nom;
+    this.vida = vidaZ;
+    this.danioRasgunio = danioZ;
+  }
+
+  public void recibirdanio(int danio){
+    vida= vida-danio;
+  }
+
   public int ataque(){
     return(10);
   }
-  public void recibirdanio(){
 
-  }
+  public int getVida(){return(this.vida);}
 
 }

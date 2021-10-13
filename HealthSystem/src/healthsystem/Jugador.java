@@ -10,6 +10,7 @@ class Jugador {
   public Jugador(String nom, int DaGolpe){
     this.nombre = nombre;
     this.danioGolpe = DaGolpe;
+    this.vida = vidaJ;
   }
 
   public int ataque(){

@@ -5,9 +5,9 @@ class Botiquin {
   private boolean estaUsado;
 
   //metodos
-  public botiquin(int botVida, boolean botUsado){
+  public Botiquin(int botVida, boolean botUsado){
     this.montoPuntoDeVida = botVida;
     this.estaUsado = botUsado;
   }
-  public boolean getEstaUsado(){return.estaUsado);}
+  public boolean getestaUsado(){return(estaUsado);}
   }
